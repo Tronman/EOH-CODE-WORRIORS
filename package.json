@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.3",
-    "express-generator": "^4.16.0"
+    "express-generator": "^4.16.0",
+    "ngrok": "^3.0.1"
   }
 }
