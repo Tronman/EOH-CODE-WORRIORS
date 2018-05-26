@@ -1,0 +1,35 @@
+@import "~normalize.css";
+@import url('https://fonts.googleapis.com/css?family=Rubik:300,300i,400,500,500i,700,900');
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+  font-family: 'Rubik', sans-serif;
+  font-size: 16px;
+}
+
+.logo {
+  height: 120px;
+  margin-top: 20px;
+}
+
+.icon-back {
+  text-transform: uppercase;
+  text-decoration: none;
+  display: block;
+  color: #fff;
+  font-size: 16px;
+  background: url("../images/icons8-detective-80.png") no-repeat center;
+  height: 100%;
+  background-size: cover !important;
+  width: 60px;
+}
+
+button{
+  outline: none;
+}

@@ -1,0 +1,49 @@
+.heading {
+  font-weight: 300;
+  font-size: 18px;
+  padding: 0 15px;
+  background: #083358;
+  height: 50px;
+  border-bottom: 1px solid #000;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 20px;
+
+  span {
+    flex-grow: 1;
+  }
+}
+
+.panic-button {
+  text-transform: uppercase;
+  background: #be3030;
+  border: 0;
+  color: #ffffff;
+  height: 55px;
+  padding: 0 50px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all .3s;
+  margin: 0 5px;
+
+  &:hover {
+    opacity: .6;
+  }
+}
+
+.report-crime {
+  background: #ff7100
+}
+
+.distance {
+  font-size: 95px;
+}
+
+.danger-area-name {
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
