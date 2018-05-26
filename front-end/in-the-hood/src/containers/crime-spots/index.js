@@ -59,6 +59,10 @@ export default class CrimeSpots extends Component {
         <div className="search">
           <input type="text" placeholder='Search spot for crime'
                  onChange={this.searchForCrime.bind(this)}/>
+
+          <Link to='/map' className="crime-spot-map">
+            MAP
+          </Link>
         </div>
         <Loader loaded={this.state.loaded}>
           <table className="crimes-list">

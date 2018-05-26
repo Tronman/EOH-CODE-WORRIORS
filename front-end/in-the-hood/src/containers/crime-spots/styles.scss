@@ -1,4 +1,4 @@
-.heading{
+.heading {
   font-weight: 300;
   font-size: 18px;
   padding: 0 15px;
@@ -92,4 +92,12 @@
   top: 50px;
   width: 100%;
   z-index: -1;
+}
+
+.crime-spot-map {
+  background: #fff;
+  text-decoration: none;
+  height: 40px;
+  padding: 5px 15px;
+  color: #000;
 }

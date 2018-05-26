@@ -4,6 +4,7 @@ import CrimeSpots from '../containers/crime-spots'
 import Help from '../containers/help'
 import HomeScreen from '../containers/home-screen'
 import InTheHood from '../containers/in-the-hood'
+import Map from '../containers/visuals'
 
 const Routes = () => (
   <Switch>
@@ -11,6 +12,7 @@ const Routes = () => (
     <Route path='/crimeSpots' component={CrimeSpots}/>
     <Route path='/inTheHood' component={InTheHood}/>
     <Route path='/help' component={Help}/>
+    <Route path='/map' component={Map}/>
   </Switch>
 )
 
