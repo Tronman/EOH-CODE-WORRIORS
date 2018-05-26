@@ -1,18 +1,8 @@
-var bodyParser = require('body-parser');
-var express = require('express');
-var path = require('path');
-var app = express();
-
+const express = require('express');
+const bodyParser = require('body-parser');
+const app = express();
 app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({extended:false}));
+app.use(bodyParser.urlencoded({ extended: true }));
 
-app.use(express.static(path.join(__dirname,'public')));
 
-app.get('/', (req, res)=>{
-    res.send('home');
-    
-});
-
-var port = process.env.PORT || 3000;
-app.listen(port, ()=>{console.log(`server listening on port:${port}`);
-});
+app.listen(3000, () => console.log('Webhook server is listening, port 3000'));
